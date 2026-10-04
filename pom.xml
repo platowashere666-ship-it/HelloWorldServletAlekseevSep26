@@ -9,7 +9,6 @@
 
     <packaging>war</packaging>
 
-
     <name>hello-world-servlet-alekseev-sep-26 Maven Webapp</name>
     <url>https://maven.apache.org</url>
 
@@ -25,6 +24,12 @@
             <artifactId>jakarta.servlet-api</artifactId>
             <version>6.1.0</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.15.0</version>
         </dependency>
     </dependencies>
 

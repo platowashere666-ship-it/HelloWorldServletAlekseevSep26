@@ -1,4 +1,4 @@
-package ru.academits.alekseev.helloworldservlet;
+package ru.academits.alekseev.helloworldservlet.listener;
 
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;

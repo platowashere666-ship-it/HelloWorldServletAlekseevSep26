@@ -15,10 +15,10 @@
         <param-name>context_name_2</param-name>
         <param-value>context_value_2</param-value>
     </context-param>
-  
+
     <servlet>
         <servlet-name>servlet2</servlet-name>
-        <servlet-class>ru.academits.alekseev.helloworldservlet.ServletTwo</servlet-class>
+        <servlet-class>ru.academits.alekseev.helloworldservlet.servlet.Servlet2</servlet-class>
         <init-param>
             <param-name>servlet_2_name_1</param-name>
             <param-value>servlet_2_value_1</param-value>
@@ -36,7 +36,7 @@
     
     <filter>
         <filter-name>filter2</filter-name>
-        <filter-class>ru.academits.alekseev.helloworldservlet.FilterTwo</filter-class>
+        <filter-class>ru.academits.alekseev.helloworldservlet.filter.Filter2</filter-class>
     </filter>
     
     <filter-mapping>
@@ -45,6 +45,6 @@
     </filter-mapping>
     
     <listener>
-        <listener-class>ru.academits.alekseev.helloworldservlet.RequestListener</listener-class>
+        <listener-class>ru.academits.alekseev.helloworldservlet.listener.RequestListener</listener-class>
     </listener>
 </web-app>
